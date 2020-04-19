@@ -1,5 +1,4 @@
-from django.utils.six import with_metaclass
-
+from six import with_metaclass
 
 class ValuesMetaclass(type):
     def __new__(mcs, name, bases, attrs):
